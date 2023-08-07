@@ -129,6 +129,13 @@ code {
 hr {
   margin-top: auto;
 }
+.br {
+  margin-bottom: 0em;
+}
+.br-info {
+  margin-bottom: 0em;
+  margin-top: 0;
+}
 #hero-section {
   margin-top: auto;
 }
@@ -168,20 +175,17 @@ hr {
 
   margin-top: 0;
 }
-.br {
-  margin-bottom: 0em;
-}
 
 .hero-text-container button {
   font-family: Arial;
-  font-size: 20px;
+  font-size: 16px;
   background: #54caf5;
-  padding: 13px 22px 13px 22px;
+  padding: 18px 22px 18px 22px;
   text-decoration: none;
   border-radius: 10px 0px 10px 0px;
   border: none;
   margin-top: auto;
-  width: 10em;
+  width: 12em;
 }
 .hero-text-container button:hover {
   background: #43a3c6;
@@ -301,8 +305,8 @@ hr {
     height: auto;
   }
   .hero-text-container button {
-    padding: 5px 22px 5px 22px;
-    width: 7.5em;
+    padding: 10px 22px 10px 22px;
+    width: 10em;
   }
   .image-container button {
     padding: 5px 8px 5px 8px;
@@ -336,7 +340,7 @@ hr {
   }
   .hero-text-container button {
     padding: 13px 22px 13px 22px;
-    width: 9em;
+    width: 10em;
   }
   .hero-text-container p {
     font-size: 0.95em;
@@ -354,10 +358,70 @@ hr {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../public/images/hero-bg/herob-1.jpeg");
+    url("../public/images/hero-bg/herob-2.jpeg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/********************* FirstInfo */
+
+#first-info-sec {
+}
+.f-info-container {
+  margin: 40px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+}
+
+.f-infotext {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.f-infotext p {
+  margin: 0;
+  line-height: 1.5em;
+}
+.f-infotext h2 {
+  margin: 0;
+  font-size: 2em;
+}
+.f-infotext .intro {
+  margin-bottom: 12px;
+}
+.f-info-all {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+.f-img-contain {
+  width: 60%;
+}
+.info-img {
+  width: 70%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 30px;
+}
+
+.f-info-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
+  width: 40%;
+}
+.f-info-tabs img {
+  margin-bottom: 30px;
+}
+/* .f-info-tabs img:nth-child(2) {
+  margin-left: 50px;
+} */
+@media screen and (max-width: 610px) {
+  .f-info-tabs img {
+    margin-bottom: 10px;
+  }
 }

@@ -21,13 +21,13 @@ const Hero = () => {
                 Aenean vestibulum magna sit amet tellus consectetur ultricies.
               </p>
             </div>
-            <button className="white">Get Started</button>
+            <button className="white light-f">GET STARTED</button>
             {/* <div className="block"></div> */}
           </div>
           <div className="image-container">
             <img
               className="hero-images"
-              src="./images/hero/1femhero.png"
+              src="./images/hero/2femhero.png"
               // style={{ width: "570px" }}
               alt=""
             />
