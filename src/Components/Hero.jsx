@@ -12,22 +12,22 @@ const Hero = () => {
               <h4 className="light-blue-color">
                 YOU'RE MORE THAN JUST A MEMBER
               </h4>
-              <h1>TRANSFORM</h1>
+              <h1 className=" white">TRANSFORM</h1>
               <span class="br"></span>
               <h1 className="your-bod light-blue-color">YOUR BODY</h1>
-              <p>
+              <p className=" white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 consectetur odio eros, quis cursus turpis aliquet bibendum.
                 Aenean vestibulum magna sit amet tellus consectetur ultricies.
               </p>
             </div>
-            <button>Get Started</button>
+            <button className="white">Get Started</button>
             {/* <div className="block"></div> */}
           </div>
           <div className="image-container">
             <img
               className="hero-images"
-              src="./images/hero/2femhero.png"
+              src="./images/hero/1femhero.png"
               // style={{ width: "570px" }}
               alt=""
             />

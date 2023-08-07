@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Hero from "../Components/Hero";
-
+import HeroNav from "../Components/HeroNav";
+import FirstInfo from "../Components/FirstInfo";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <HeroNav />
+      <FirstInfo />
     </>
   );
 };
