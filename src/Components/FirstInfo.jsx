@@ -31,9 +31,11 @@ const FirstInfo = () => {
             />
           </div>
           <div className="f-info-tabs">
-            <img src="./images/firstInfo/info-tab-1.png" alt="" />
-            <img src="./images/firstInfo/info-tab-2.png" alt="" />
-            <img src="./images/firstInfo/info-tab-5.png" alt="" />
+            <img src="./images/firstInfo/infotab-1.png" alt="" />
+
+            <img src="./images/firstInfo/infotab-2.png" alt="" />
+
+            <img src="./images/firstInfo/3info-tab.png" alt="" />
           </div>
         </div>
       </div>
