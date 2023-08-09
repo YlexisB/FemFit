@@ -1,5 +1,5 @@
 import React from "react";
-import ReactSlider from "./ReactSlider";
+import WhyUsSlider from "./WhyUsSlider";
 const WhyUs = () => {
   return (
     <section id="why-us">
@@ -15,7 +15,7 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <ReactSlider />
+        <WhyUsSlider />
       </div>
     </section>
   );
