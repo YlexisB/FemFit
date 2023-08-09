@@ -391,7 +391,8 @@ hr {
   margin: 0;
   font-size: 2.5em;
   color: #333333;
-  font-weight: 500;
+
+  font-family: Roboto Flex;
 }
 .f-infotext p {
   margin: 0;
@@ -1123,6 +1124,105 @@ video {
     line-height: 1.3em;
   }
   .client-f-all {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* **BLOG CARD************************BLOG CARD SEC */
+#blog-card-section {
+  padding-bottom: 20px;
+}
+.blog-c-sec-all {
+  margin: 40px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-c-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.blog-c-text h4 {
+  margin-bottom: 5px;
+}
+.blog-c-text h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Roboto Flex;
+  font-size: 3em;
+}
+
+.blog-c-text p {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.5em;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-right: 40px;
+}
+.card-exercise {
+  background-color: #c6eaf7;
+  width: 70px;
+  text-align: center;
+}
+#card-images {
+  object-position: top;
+  width: 100%;
+}
+
+@media screen and (max-width: 856px) {
+  .blog-c-text h1 {
+    font-size: 1.5em;
+    margin-top: 5%;
+  }
+  .blog-c-text p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+
+    margin-bottom: 20px;
+  }
+  #card-title {
+    font-size: 1em;
+  }
+  #card-description {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .blog-c-text h1 {
+    font-size: 1.4em;
+    margin-top: 5%;
+  }
+  .blog-c-text p {
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .blog-c-text {
     margin-left: 20px;
     margin-right: 20px;
   }
