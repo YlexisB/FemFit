@@ -1052,3 +1052,78 @@ video {
     font-size: 0.8em;
   }
 }
+
+/**CLIENT FEEDBACK******************************************************* CLIENT FEEDBACK */
+#client-feedback {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.client-f-all {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.client-f-text h1 {
+  font-size: 3em;
+  font-family: Roboto Flex;
+  margin-bottom: 0px;
+  margin-top: 3%;
+}
+.client-f-text p {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.5em;
+}
+.slick-prev,
+.slick-next,
+.slick-arrow {
+  background-color: #333333;
+}
+.slick-prev,
+.slick-next,
+.slick-arrow:hover {
+  background-color: #333333;
+}
+
+@media screen and (max-width: 856px) {
+  .client-f-text h1 {
+    font-size: 1.8em;
+    margin-top: 5%;
+  }
+  .client-f-text p {
+    font-size: 0.95em;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .client-f-text h1 {
+    font-size: 1.5em;
+    margin-top: 5%;
+  }
+  .client-f-text p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .client-f-text h1 {
+    font-size: 1.4em;
+    margin-top: 5%;
+  }
+  .client-f-text p {
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+  .client-f-all {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
