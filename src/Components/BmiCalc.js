@@ -9,12 +9,31 @@ const BmiCalc = () => {
           <div>
             <input></input>
           </div>
-          <div>
-            <input label="Feet"></input>
-            <input label="Inches"></input>
+          <div className="inputs">
+            <label for="height">Height:</label>
+            <br />
+            <input
+              placeholder="FT:-"
+              type="number"
+              id="feet"
+              name="feet"
+              min=""
+              max="7"
+            ></input>
+
+            <input
+              placeholder="IN:-"
+              type="number"
+              id="inches"
+              name="inches"
+              min="0"
+              max="11"
+            ></input>
           </div>
           <div>
-            <input label="Height"></input>
+            <label for="weight">Weight:</label>
+            <br />
+            <input label="weight" placeholder="LBS:-"></input>
           </div>
           <button>CALCULATE</button>
         </div>
