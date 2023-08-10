@@ -8,6 +8,7 @@ import OurTeam from "../Components/OurTeamStuff/OurTeam";
 import BmiCalc from "../Components/BmiCalc";
 import ClientFeedback from "../Components/ClientStuff/ClientFeedback";
 import BlogCardSec from "../Components/BlogStuff/BlogCardSec";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <BmiCalc />
       <ClientFeedback />
       <BlogCardSec />
+      <Footer />
     </>
   );
 };
