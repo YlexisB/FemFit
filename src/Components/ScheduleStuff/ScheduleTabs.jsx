@@ -14,7 +14,7 @@ const ScheduleTabs = () => {
             <img src="./images/schedule/class-tab-2.png" alt="" />
           </div>
           <div className="tab-sec-2 s-tabs">
-            <img src="./images/schedule/class-tab-3.png" alt="" />
+            <img src="./images/schedule/class-tab--3.png" alt="" />
           </div>
           <div className="tab-sec-3 s-tabs">
             <img src="./images/schedule/class-tab-4.png" alt="" />

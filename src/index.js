@@ -3,12 +3,16 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
+import AboutUs from "./Pages/AboutUs";
+import Join from "./Components/Join";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const App = () => {
   return (
     <>
       <Home />
+      <AboutUs />
+      <Join />
     </>
   );
 };

@@ -3,7 +3,7 @@ import { VscChevronLeft, VscChevronRight } from "react-icons/vsc";
 
 const Hero = () => {
   return (
-    <div>
+    <div id="hero-all">
       <hr />
       <section id="hero-section">
         <div className="hero-container">
