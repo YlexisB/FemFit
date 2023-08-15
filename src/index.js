@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Join from "./Components/Join";
+import BlogSite from "./Pages/BlogSite";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Home />
       <AboutUs />
       <Join />
+      <BlogSite />
     </>
   );
 };

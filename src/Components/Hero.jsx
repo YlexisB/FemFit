@@ -12,7 +12,7 @@ const Hero = () => {
               <h4 className="light-blue-color">
                 YOU'RE MORE THAN JUST A MEMBER
               </h4>
-              <h1 className=" white">TRANSFORM</h1>
+              <h1 className=" white stroke-text">TRANSFORM</h1>
               <span class="br"></span>
               <h1 className="your-bod light-blue-color">YOUR BODY</h1>
               <p className=" white">
