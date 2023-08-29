@@ -1,6 +1,10 @@
 import React from "react";
 import BlogCard from "./BlogCard";
 const BlogCardSec = () => {
+  const handleCardClick = (cardId) => {
+    window.location.href = `/blog/${cardId}`; // Use the correct route
+  };
+
   return (
     <section id="blog-card-section">
       <div className="blog-c-sec-all">
@@ -14,7 +18,7 @@ const BlogCardSec = () => {
           </p>
         </div>
 
-        <BlogCard />
+        <BlogCard onCardClick={handleCardClick} />
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="logo-stuff">
         <img
           className="logo-avatar logo"
-          src="./images/logo/1femFit-logo.png"
+          src="/images/logo/1femFit-logo.png"
           alt=""
         />
         <h1 className=" white">FemFit</h1>

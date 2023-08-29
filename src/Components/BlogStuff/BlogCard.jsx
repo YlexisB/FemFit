@@ -5,18 +5,20 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { BsArrowUpRight } from "react-icons/bs";
-import constants from "../../constants";
+import cards from "../../Data/cardData";
+import { useState } from "react";
 
-export default function MediaCard() {
+export default function MediaCard({ onCardClick }) {
   return (
     <div className="card-container">
-      {constants.map((card, index) => {
+      {cards.map((card) => {
         return (
           <Card
             className="card"
-            key={index}
-            id={`card-${index}`}
+            key={card.id}
+            id={`card-${card.id}`}
             sx={{ maxWidth: 345 }}
+            onClick={() => onCardClick(card.id)}
           >
             <CardMedia
               sx={{ height: 190 }}
