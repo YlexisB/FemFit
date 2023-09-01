@@ -6,20 +6,10 @@ const BmiCalc = () => {
       <div className="bmi-all">
         <div className="bmi-title-metrics">
           <h1> CALCULATE BMI</h1>
-          <div>
-            <input></input>
-          </div>
+
           <div className="inputs">
             <label for="height">Height:</label>
             <br />
-            <input
-              placeholder="FT:-"
-              type="number"
-              id="feet"
-              name="feet"
-              min=""
-              max="7"
-            ></input>
 
             <input
               placeholder="IN:-"
@@ -35,7 +25,10 @@ const BmiCalc = () => {
             <br />
             <input label="weight" placeholder="LBS:-"></input>
           </div>
-          <button>CALCULATE</button>
+          <div className="bmi-buttons">
+            <button>CALCULATE</button>
+            <button>RELOAD</button>
+          </div>
         </div>
 
         <div className="img-contain">

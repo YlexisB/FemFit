@@ -7,8 +7,9 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
-import Join from "./Components/Join";
 import BlogSite from "./Pages/BlogSite";
+import Classes from "./Pages/Classes";
+import ContactUs from "./Pages/ContactUs";
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<AboutUs />} />
-        <Route path="/Join" element={<Join />} />
         <Route path="/blog/:cardId" element={<BlogSite />} />
+        <Route path="/Classes" element={<Classes />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );

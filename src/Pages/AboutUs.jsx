@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import AboutSec from "../Components/AboutSec";
+import Join from "../Components/Join";
 
 const AboutUs = () => {
   return (
@@ -18,6 +19,7 @@ const AboutUs = () => {
         </div>
       </div>
       <AboutSec />
+      <Join />
     </>
   );
 };
