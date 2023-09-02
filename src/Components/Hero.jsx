@@ -1,7 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { VscChevronLeft, VscChevronRight } from "react-icons/vsc";
+import Modal from "./Modal";
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const [imageIndex, setImageIndex] = useState(0);
+  const images = ["./images/hero/2femhero.png", "./images/hero/1femhero.png"];
+  const prevImage = () => {
+    setImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const nextImage = () => {
+    setImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
   return (
     <div id="hero-all">
       <hr />
@@ -21,22 +45,26 @@ const Hero = () => {
                 Aenean vestibulum magna sit amet tellus consectetur ultricies.
               </p>
             </div>
-            <button className="white light-f">GET STARTED</button>
+
+            <button onClick={openModal} className="home-hero-btn white light-f">
+              GET STARTED
+            </button>
+            {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
             {/* <div className="block"></div> */}
           </div>
           <div className="image-container">
             <img
               className="hero-images"
-              src="./images/hero/2femhero.png"
+              src={images[imageIndex]}
               // style={{ width: "570px" }}
               alt=""
             />
-            <img src="" alt="" />
+
             <div className="hero-img-buttons">
-              <button>
+              <button onClick={prevImage}>
                 <VscChevronLeft />
               </button>
-              <button>
+              <button onClick={nextImage}>
                 <VscChevronRight />
               </button>
             </div>

@@ -6,7 +6,6 @@ import ClassHeader from "../Components/ClassesStuff/ClassHeader";
 const Classes = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <ClassHeader />
       <Footer />
     </div>

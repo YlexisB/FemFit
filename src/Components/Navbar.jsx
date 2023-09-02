@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { VscMenu, VscAccount } from "react-icons/vsc";
+import { VscMenu, VscCalendar } from "react-icons/vsc";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +71,7 @@ const Navbar = () => {
           <h3>Contact us</h3>
         </div>
       )}
-      <VscAccount className={isOpen ? "logo-open" : " avatar white"} />
+      <VscCalendar className={isOpen ? "logo-open" : " avatar white"} />
     </div>
   );
 };

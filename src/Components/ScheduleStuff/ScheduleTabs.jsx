@@ -6,7 +6,7 @@ const ScheduleTabs = () => {
       <div className="schedule-all">
         <div className="title">
           <h4 className="light-blue-color">* Our Classes</h4>
-          <h1 className="white">THE DAILY SCHEDULE</h1>
+          <h1 className="white">THE WEEKDAY SCHEDULE</h1>
         </div>
         <div className="schedule-tabs-all">
           <div className="tab-sec-1 s-tabs">

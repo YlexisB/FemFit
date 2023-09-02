@@ -6,6 +6,7 @@ const HeroNav = () => {
   return (
     <div className="hero-image">
       <Navbar />
+
       <Hero />
     </div>
   );

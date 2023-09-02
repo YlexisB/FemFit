@@ -1,14 +1,14 @@
 import React from "react";
-import Contact from "../Components/Contact";
+import ScheduleApp from "../Components/ScheduleStuff/ScheduleApp";
 import Navbar from "../Components/Navbar";
 
-const ContactUs = () => {
+const ScheduleNow = () => {
   return (
     <div id="contact-bg">
       <Navbar />
-      <Contact />
+      <ScheduleApp />
     </div>
   );
 };
 
-export default ContactUs;
+export default ScheduleNow;
