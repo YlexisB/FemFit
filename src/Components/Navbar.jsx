@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { VscMenu, VscCalendar } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,15 +33,28 @@ const Navbar = () => {
           src="/images/logo/1femFit-logo.png"
           alt=""
         />
-        <h1 className=" white">FemFit</h1>
+        <Link to="/">
+          <h1 className=" white">FemFit</h1>
+        </Link>
       </div>
       {windowWidth > 740 ? (
         <div className="menu-items open light-blue-color light-f">
-          <h4>Home</h4>
-          <h4>Classes</h4>
-          <h4>About Us</h4>
-          <h4>Blog</h4>
-          <h4>Contact us</h4>
+          <Link to="/">
+            {" "}
+            <h4>Home</h4>
+          </Link>
+          <Link to="/Classes">
+            <h4>Classes</h4>
+          </Link>
+          <Link to="/About">
+            <h4>About Us</h4>
+          </Link>
+          <Link to="/blog/0">
+            <h4>Blog</h4>
+          </Link>
+          <Link to="/ContactUs">
+            <h4>Contact us</h4>
+          </Link>
         </div>
       ) : null}
       {windowWidth <= 740 ? (
@@ -64,14 +78,26 @@ const Navbar = () => {
       ) : null}
       {windowWidth <= 740 && isOpen && (
         <div className="menu-dropdown white light-f">
-          <h3>Home</h3>
-          <h3>Classes</h3>
-          <h3>About Us</h3>
-          <h3>Blog</h3>
-          <h3>Contact us</h3>
+          <Link to="/">
+            <h3>Home</h3>
+          </Link>
+          <Link to="/Classes">
+            <h3>Classes</h3>
+          </Link>
+          <Link to="/About">
+            <h3>About Us</h3>
+          </Link>
+          <Link to="/blog/0">
+            <h3>Blog</h3>
+          </Link>
+          <Link to="/ContactUs">
+            <h3>Contact us</h3>
+          </Link>
         </div>
       )}
-      <VscCalendar className={isOpen ? "logo-open" : " avatar white"} />
+      <Link to="/ScheduleNow">
+        <VscCalendar className={isOpen ? "logo-open" : " avatar white"} />
+      </Link>
     </div>
   );
 };

@@ -1,5 +1,8 @@
 import React from "react";
 import WhyUsSlider from "./WhyUsSlider";
+
+import { Link } from "react-router-dom";
+
 const WhyUs = () => {
   return (
     <section id="why-us">
@@ -10,8 +13,9 @@ const WhyUs = () => {
             <h1 className="white">SOLUTION WE PROVIDE</h1>
           </div>
           <div className="wu-button-stuff">
-            <button>ALL SERVICES</button>
-            {/* <div className="button-box "></div> */}
+            <Link to="/Classes">
+              <button>ALL SERVICES</button>
+            </Link>
           </div>
         </div>
 

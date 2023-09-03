@@ -11,13 +11,13 @@ const Modal = ({ isOpen, onClose }) => {
           </button> */}
 
           <form id="get-started-form">
-            <button className="close-button" onClick={onClose}>
+            <button className="modal-close-button" onClick={onClose}>
               x
             </button>
             <h2>GET STARTED</h2>
             <p>
               Fill out this form and a FemFit consultant will get in touch with
-              you to start you journey with us!
+              you shortly!
             </p>
 
             <input
@@ -46,7 +46,9 @@ const Modal = ({ isOpen, onClose }) => {
               cols="50"
               placeholder="Type your message"
             ></textarea>
-            <button type="submit">Send</button>
+            <button className="modal-submit" type="submit">
+              Send
+            </button>
           </form>
         </div>
       </div>

@@ -20,8 +20,10 @@ const AboutSec = () => {
           </span>
         </div>
         <div className="right-t">
-          <div></div>
-          <div></div>
+          <div className="blue-squares">
+            <div className="b1"></div>
+            <div className="b2"></div>
+          </div>
           <img src={aboutData[selected].image} alt="" />
           <div className="arrows">
             <VscArrowLeft
