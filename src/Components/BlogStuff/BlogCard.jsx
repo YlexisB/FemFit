@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { BsArrowUpRight } from "react-icons/bs";
 import cards from "../../Data/cardData";
-import { useState } from "react";
+import { BLOG_STUFF } from "../../constants";
 
 export default function MediaCard({ onCardClick }) {
   return (
@@ -27,7 +27,7 @@ export default function MediaCard({ onCardClick }) {
               id="card-images"
             />
             <CardContent>
-              <div className="card-exercise">Exercise</div>
+              <div className="card-exercise">{BLOG_STUFF.exercise}</div>
               <Typography
                 id="card-title"
                 gutterBottom

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { CLIENT_STUFF } from "../../constants";
 
 export default class CenterMode extends Component {
   render() {
@@ -15,19 +16,19 @@ export default class CenterMode extends Component {
       <div className="o-team-slider">
         <Slider {...settings}>
           <div className="team-tab">
-            <img src="./images/client-f/c-tab1.png" alt="" />
+            <img src={CLIENT_STUFF.review1} alt="" />
           </div>
           <div className="team-tab">
-            <img src="./images/client-f/c-tab2.png" alt="" />
+            <img src={CLIENT_STUFF.review2} alt="" />
           </div>
           <div className="team-tab">
-            <img src="./images/client-f/c-tab3.png" alt="" />
+            <img src={CLIENT_STUFF.review3} alt="" />
           </div>
           <div className="team-tab">
-            <img src="./images/client-f/c-tab4.png" alt="" />
+            <img src={CLIENT_STUFF.review4} alt="" />
           </div>
           <div className="team-tab">
-            <img src="./images/client-f/c-tab5.png" alt="" />
+            <img src={CLIENT_STUFF.review5} alt="" />
           </div>
         </Slider>
       </div>

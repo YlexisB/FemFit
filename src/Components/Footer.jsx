@@ -1,4 +1,5 @@
 import React from "react";
+import { FOOTER } from "../constants";
 
 const Footer = () => {
   return (
@@ -7,31 +8,28 @@ const Footer = () => {
         <div className="footer-img">
           <div className="img img-1">
             <img src="./images/logo/1femfit-logo.png" alt="logo" />
-            <h1 className="white">FemFit</h1>
+            <h1 className="white">{FOOTER.siteName}</h1>
           </div>
           <div className="img img-2">
-            <img src="./images/logo/addy-img.png" alt="" />
-            <p> 38 west Panama City,NJ,13232</p>
+            <img src={FOOTER.footerImg} alt="" />
+            <p> {FOOTER.address}</p>
           </div>
         </div>
         <div className="footer-half">
-          <h1 className="white">
-            Empowering Women: Strength, Confidence, Wellness. Join FemFit Today!
-          </h1>
+          <h1 className="white">{FOOTER.title}</h1>
           <div className="info">
             <div className="footer-info">
-              <h3 className="light-blue-color">Working Hours</h3>
-              <p>Mon-Fri:6am-10pm</p>
-              <p>Sat-Sun:7am-11pm</p>
+              <h3 className="light-blue-color">{FOOTER.hoursText}</h3>
+              <p>{FOOTER.weekday}</p>
+              <p>{FOOTER.weekends}</p>
             </div>
             <div className="footer-info">
-              <h3 className="light-blue-color">CALL US</h3>
-              <p>+1 800 123 4567</p>
-              <p>Sat-Sun:7am-11pm</p>
+              <h3 className="light-blue-color">{FOOTER.call}</h3>
+              <p>{FOOTER.number}</p>
             </div>
             <div className="footer-info">
-              <h3 className="light-blue-color">WE ARE HERE</h3>
-              <p> 38 West Panama City, NJ,13232</p>
+              <h3 className="light-blue-color">{FOOTER.location}</h3>
+              <p> {FOOTER.address}</p>
             </div>
           </div>
         </div>

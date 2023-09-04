@@ -1,4 +1,5 @@
 import React from "react";
+import { SEC_INFO_STUFF } from "../constants";
 
 const SecondInfo = () => {
   return (
@@ -7,25 +8,20 @@ const SecondInfo = () => {
         <div className="sec-info-vid">
           <video
             preload="auto"
-            // width="540"
-            // height="540"
-            poster="/images/secondInfo/1sec-info-vid.png"
+            poster={SEC_INFO_STUFF.promovidPreview}
             controls
           >
-            <source
-              src="./images/secondInfo/1sec-info-vid.mp4"
-              type="video/mp4"
-            />
+            <source src={SEC_INFO_STUFF.promovid} type="video/mp4" />
           </video>
         </div>
         <div className="sec-tabs">
           <div className="sec-tab-row">
-            <img src="./images/secondInfo/sec-info-tab1.png" alt="" />
-            <img src="./images/secondInfo/sec-info-tab1.png" alt="" />
+            <img src={SEC_INFO_STUFF.tab1} alt="" />
+            <img src={SEC_INFO_STUFF.tab2} alt="" />
           </div>
           <div className="sec-tab-row">
-            <img src="./images/secondInfo/sec-info-tab1.png" alt="" />
-            <img src="./images/secondInfo/sec-info-tab1.png" alt="" />
+            <img src={SEC_INFO_STUFF.tab3} alt="" />
+            <img src={SEC_INFO_STUFF.tab4} alt="" />
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { WHY_US_STUFF } from "../../constants";
 
 export default class AutoPlay extends Component {
   render() {
@@ -17,24 +18,17 @@ export default class AutoPlay extends Component {
       <div className="slider">
         <Slider {...settings}>
           <div className="slider-div">
-            <img src="./images/whyus/slide1-wu.png" alt="" />
+            <img src={WHY_US_STUFF.slide1} alt="" />
           </div>
           <div className="slider-div">
-            <img src="./images/whyus/slide2-wu.png" alt="" />
+            <img src={WHY_US_STUFF.slide2} alt="" />
           </div>
           <div className="slider-div">
-            <img src="./images/whyus/slide3-wu.png" alt="" />
+            <img src={WHY_US_STUFF.slide3} alt="" />
           </div>
           <div className="slider-div">
-            <img src="./images/whyus/slide4-wu.png" alt="" />
+            <img src={WHY_US_STUFF.slide4} alt="" />
           </div>
-
-          {/* <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div> */}
         </Slider>
       </div>
     );

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import { OURTEAM_STUFF } from "../../constants";
+
 export default class CenterMode extends Component {
   render() {
     const settings = {
@@ -17,27 +19,27 @@ export default class CenterMode extends Component {
         <Slider {...settings}>
           <div className="team-tab">
             <Link to="/about">
-              <img src="./images/ourteam/team-tab-1.png" alt="" />
+              <img src={OURTEAM_STUFF.team1} alt="" />
             </Link>
           </div>
           <div className="team-tab">
             <Link to="/about">
-              <img src="./images/ourteam/team-tab-2.png" alt="" />
+              <img src={OURTEAM_STUFF.team2} alt="" />
             </Link>
           </div>
           <div className="team-tab">
             <Link to="/about">
-              <img src="./images/ourteam/team-tab-3.png" alt="" />
+              <img src={OURTEAM_STUFF.team3} alt="" />
             </Link>
           </div>
           <div className="team-tab">
             <Link to="/about">
-              <img src="./images/ourteam/team-tab-4.png" alt="" />
+              <img src={OURTEAM_STUFF.team4} alt="" />
             </Link>
           </div>
           <div className="team-tab">
             <Link to="/about">
-              <img src="./images/ourteam/team-tab-5.png" alt="" />
+              <img src={OURTEAM_STUFF.team5} alt="" />
             </Link>
           </div>
         </Slider>

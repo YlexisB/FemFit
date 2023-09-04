@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { VscMenu, VscCalendar } from "react-icons/vsc";
 import { Link } from "react-router-dom";
+import { NAV_STUFF } from "../constants";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,26 +35,26 @@ const Navbar = () => {
           alt=""
         />
         <Link to="/">
-          <h1 className=" white">FemFit</h1>
+          <h1 className=" white">{NAV_STUFF.siteName}</h1>
         </Link>
       </div>
       {windowWidth > 740 ? (
         <div className="menu-items open light-blue-color light-f">
           <Link to="/">
             {" "}
-            <h4>Home</h4>
+            <h4>{NAV_STUFF.home}</h4>
           </Link>
           <Link to="/Classes">
-            <h4>Classes</h4>
+            <h4>{NAV_STUFF.classes}</h4>
           </Link>
           <Link to="/About">
-            <h4>About Us</h4>
+            <h4>{NAV_STUFF.about}</h4>
           </Link>
           <Link to="/blog/0">
-            <h4>Blog</h4>
+            <h4>{NAV_STUFF.blog}</h4>
           </Link>
           <Link to="/ContactUs">
-            <h4>Contact us</h4>
+            <h4>{NAV_STUFF.contact}</h4>
           </Link>
         </div>
       ) : null}
@@ -79,19 +80,19 @@ const Navbar = () => {
       {windowWidth <= 740 && isOpen && (
         <div className="menu-dropdown white light-f">
           <Link to="/">
-            <h3>Home</h3>
+            <h3>{NAV_STUFF.home}</h3>
           </Link>
           <Link to="/Classes">
-            <h3>Classes</h3>
+            <h3>{NAV_STUFF.classes}</h3>
           </Link>
           <Link to="/About">
-            <h3>About Us</h3>
+            <h3>{NAV_STUFF.about}</h3>
           </Link>
           <Link to="/blog/0">
-            <h3>Blog</h3>
+            <h3>{NAV_STUFF.blog}</h3>
           </Link>
           <Link to="/ContactUs">
-            <h3>Contact us</h3>
+            <h3>{NAV_STUFF.contact}</h3>
           </Link>
         </div>
       )}

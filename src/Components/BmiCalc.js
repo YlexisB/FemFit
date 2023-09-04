@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BMI_STUFF } from "../constants";
 
 const BmiCalc = () => {
   const [heightInches, setHeightInches] = useState("");
@@ -47,11 +48,11 @@ const BmiCalc = () => {
     <section id="bmi-section">
       <div className="bmi-all">
         <div className="bmi-title-metrics">
-          <h1> CALCULATE BMI</h1>
+          <h1> {BMI_STUFF.title}</h1>
           {bmiResult === null ? (
             <>
               <div className="inputs">
-                <label for="height">Height:</label>
+                <label for="height">{BMI_STUFF.height}</label>
                 <br />
 
                 <input
@@ -64,7 +65,7 @@ const BmiCalc = () => {
                 ></input>
               </div>
               <div>
-                <label for="weight">Weight:</label>
+                <label for="weight">{BMI_STUFF.weight}</label>
                 <br />
                 <input
                   label="weight"
@@ -78,18 +79,22 @@ const BmiCalc = () => {
             </>
           ) : (
             <div className="calc-results">
-              <p>Your BMI: {bmiResult}</p>
-              <p>Health Status: {healthStatus}</p>
+              <p>
+                {BMI_STUFF.bmi} {bmiResult}
+              </p>
+              <p>
+                {BMI_STUFF.healthResult} {healthStatus}
+              </p>
             </div>
           )}
           <div className="bmi-buttons">
-            <button onClick={calculateBMI}>CALCULATE</button>
-            <button onClick={clearResult}>RELOAD</button>
+            <button onClick={calculateBMI}>{BMI_STUFF.calculatebtn}</button>
+            <button onClick={clearResult}>{BMI_STUFF.reloadbtn}</button>
           </div>
         </div>
 
         <div className="img-contain">
-          <img src="./images/bmi/bmi-pic.png" alt="" />
+          <img src={BMI_STUFF.bmiPic} alt="" />
         </div>
       </div>
     </section>

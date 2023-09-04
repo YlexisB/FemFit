@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { VscChevronLeft, VscChevronRight } from "react-icons/vsc";
 import Modal from "./Modal";
+import { HERO_HOME_STUFF } from "../constants";
 
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -33,21 +34,19 @@ const Hero = () => {
         <div className="hero-container">
           <div className="hero-text-container">
             <div>
-              <h4 className="light-blue-color">
-                YOU'RE MORE THAN JUST A MEMBER
-              </h4>
-              <h1 className=" white stroke-text">TRANSFORM</h1>
+              <h4 className="light-blue-color">{HERO_HOME_STUFF.subheading}</h4>
+              <h1 className=" white stroke-text">
+                {HERO_HOME_STUFF.headingstrokeText}
+              </h1>
               <span class="br"></span>
-              <h1 className="your-bod light-blue-color">YOUR BODY</h1>
-              <p className=" white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                consectetur odio eros, quis cursus turpis aliquet bibendum.
-                Aenean vestibulum magna sit amet tellus consectetur ultricies.
-              </p>
+              <h1 className="your-bod light-blue-color">
+                {HERO_HOME_STUFF.heading}
+              </h1>
+              <p className=" white">{HERO_HOME_STUFF.headingP}</p>
             </div>
 
             <button onClick={openModal} className="home-hero-btn white light-f">
-              GET STARTED
+              {HERO_HOME_STUFF.callToAction}
             </button>
             {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
             {/* <div className="block"></div> */}

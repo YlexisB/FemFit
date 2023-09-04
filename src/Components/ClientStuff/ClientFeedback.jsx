@@ -1,17 +1,14 @@
 import React from "react";
 import ClientSlider from "./ClientSlider";
+import { CLIENT_STUFF } from "../../constants";
 
 const ClientFeedback = () => {
   return (
     <section id="client-feedback">
       <div className="client-f-all">
         <div className="client-f-text">
-          <h1> OUR CLIENTS SAY</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            consectetur odio eros. Quis cursus turpis aliquet bibendum. Aenean
-            vestibulum magna sit amet tellus consectetur ultricies
-          </p>
+          <h1> {CLIENT_STUFF.title}</h1>
+          <p>{CLIENT_STUFF.titleP}</p>
         </div>
         <ClientSlider />
       </div>
