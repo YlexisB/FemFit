@@ -1,5 +1,6 @@
 import React from "react";
 import { blogData } from "../../Data/BlogData";
+import { BLOG_STUFF } from "../../constants";
 
 const BlogText = ({ selectedBlog }) => {
   return (
@@ -7,7 +8,10 @@ const BlogText = ({ selectedBlog }) => {
       <div id="article">
         <div className="author-info">
           <img src={selectedBlog.authorImage} alt="Author" />
-          <h4>Written by: {selectedBlog.authorName}</h4>
+          <h4>
+            {BLOG_STUFF.write}
+            {selectedBlog.authorName}
+          </h4>
         </div>
         <p>{selectedBlog.p1}</p>
         <p>

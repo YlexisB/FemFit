@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { aboutData } from "../Data/AboutData";
 import { VscArrowLeft, VscArrowRight } from "react-icons/vsc";
+import { ABOUT_STUFF } from "../constants";
+
 const AboutSec = () => {
   const [selected, setSelected] = useState(0);
   const aLength = aboutData.length;
@@ -9,9 +11,9 @@ const AboutSec = () => {
     <section id="about-us-all">
       <div className="about-us-team">
         <div className="left-t">
-          <span>The FemFit Team</span>
-          <span className="stroke-text">Our Dedicated</span>
-          <span>fitness experts</span>
+          <span>{ABOUT_STUFF.subtitle2}</span>
+          <span className="stroke-text">{ABOUT_STUFF.title2}</span>
+          <span>{ABOUT_STUFF.title3}</span>
           <span>{aboutData[selected].description}</span>
           <span>
             <span className="light-blue-color">{aboutData[selected].name}</span>{" "}

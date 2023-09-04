@@ -96,6 +96,8 @@ export const BLOG_STUFF = {
   title: "OUR LATEST BLOG",
   titleP:
     "Explore the FemFit Blog and dive into a world of fitness insights, health tips, and lifestyle inspiration. Our blog is your go-to source for the latest trends in wellness, workout routines, nutrition advice, and success stories from our amazing members.",
+write:"Written by: "
+
 };
 
 export const FOOTER = {
@@ -110,4 +112,73 @@ export const FOOTER = {
   call: "CALL US",
   number: "+1 800 123 4567",
   location: "WE ARE HERE",
+};
+
+export const CLASSES_STUFF = {
+  title: "GET FIT AND FEEL GREAT !",
+  subtitle:
+    "  Boosting body, burning calories - join our fierce FemFit Family!",
+  cta: "GET STARTED",
+  title2: "Our Classes",
+  titlep:
+    " FemFit Gym offers a diverse range of dynamic classes, catering to various fitness levels and goals, ensuring an engaging and effective workout experience for all",
+  yoga: "YOGA",
+  yogaP:
+    "Start your day with tranquility. Our invigorating yoga class helps you find balance, flexibility, and inner peace through mindful movements and deep breathing exercises.",
+  yogaTime: "6am - 7am",
+  crossfit: "CROSSFIT",
+  crossfitP:
+    "Unleash your full potential with our high-intensity CrossFit sessions.Femfit instructor Tori, will lead you through challenging functional workouts, fostering strength, endurance, and camaraderie.",
+  crossfitTime: "8am - 10am",
+  strength: "STRENGTH TRAINING",
+  strengthP:
+    " Elevate your strength game with focused resistance exercises. Our structured training helps you build muscle, enhance metabolism, and achieve long-lasting results.",
+  strengthTime: "10am - 12pm",
+  boxing: "BOXING",
+  boxingP:
+    " Step into the ring and ignite your fighting spirit. Our boxing class combines cardio, technique, and self-defense, delivering a knockout combination of fitness and empowerment.",
+  boxingTime: "1pm - 3pm",
+  power: "POWER AND SPEED",
+  power1:
+    "Unleash your inner dynamo in our evening power and speed sessions. Push your limits with explosive movements and intensive drills, experiencing gains in agility, power, and overall performance.",
+  powerTime: "5pm - 10pm",
+  open: "Open Gym",
+  openP:
+    " Enjoy unrestricted access to the entire gym during open slots on weekdays and all day on weekends.",
+  weekday: "Weekday Open Slots",
+  openSlot1: "7am - 7:50am",
+  openSlot2: "12pm - 12:50pm",
+  openSlot3: "3pm - 4:50pm",
+  title3: "Our Advantages",
+  a1: "Tailored Workouts",
+  ap1: "Enjoy personalized fitness routines that align with your goals.",
+  a1Img: "/images/classes/class-workout.png",
+  a2: "Supportive Community",
+  ap2: "Connect with like-minded individuals and foster motivation.",
+  a2img: "/images/classes/class-com.png",
+  a3: "Expert Coaching",
+  ap3: "Benefit from experienced trainers guiding your fitness journey.",
+  a4: "Varied Classes",
+  ap4: "Access a wide array of classes designed for all fitness levels.",
+  a4img: "/images/classes/class-class.png",
+  ctaTitle: "CALL AND BOOK YOUR FIRST CLASS FOR FREE !",
+  ctabutton: "Join Now",
+  ctaImg: "/images/classes/fit-w.png",
+};
+
+export const ABOUT_STUFF = {
+  title: "NEVER GIVE UP",
+  subtitle: "THE BEST FITNESS FOR YOU",
+  cta: "GET STARTED",
+  subtitle2: "The FemFit Team",
+  title2: "Our Dedicated",
+  title3: "fitness experts",
+};
+
+export const JOIN_STUFF = {
+  t1: "READY TO",
+  t2: "LEVEL UP",
+  t3: "YOUR BODY",
+  t4: "WITH US?",
+  cta: "Join Now",
 };

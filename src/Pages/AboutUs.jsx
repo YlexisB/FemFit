@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import AboutSec from "../Components/AboutSec";
 import Join from "../Components/Join";
 import Modal from "../Components/Modal";
+import { ABOUT_STUFF } from "../constants";
 
 const AboutUs = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -21,16 +22,16 @@ const AboutUs = () => {
         <Navbar />
         <div className="about-hero-text">
           <h1 className="white">
-            <i>NEVER GIVE UP</i>
+            <i>{ABOUT_STUFF.title}</i>
           </h1>
           <h1 className="light-blue-color">
-            <i>THE BEST FITNESS FOR YOU</i>
+            <i>{ABOUT_STUFF.subtitle}</i>
           </h1>
           <button
             onClick={openModal}
             className=" about-hero-btn light-blue-color"
           >
-            GET STARTED
+            {ABOUT_STUFF.cta}
           </button>
           {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
         </div>
