@@ -45,7 +45,7 @@ const Modal = ({ isOpen, onClose }) => {
               placeholder="Type your message"
             ></textarea>
             <button className="modal-submit" type="submit">
-              Send
+              {MODAL_STUFF.submit}
             </button>
           </form>
         </div>

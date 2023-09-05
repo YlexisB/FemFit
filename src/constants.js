@@ -214,4 +214,5 @@ export const MODAL_STUFF = {
   title: "GET STARTED",
   titleP:
     " Fill out this form and a FemFit consultant will get in touch with you shortly!",
+  submit: "Send",
 };
