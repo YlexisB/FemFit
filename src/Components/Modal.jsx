@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MODAL_STUFF } from "../constants";
 
 const Modal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -14,11 +15,8 @@ const Modal = ({ isOpen, onClose }) => {
             <button className="modal-close-button" onClick={onClose}>
               x
             </button>
-            <h2>GET STARTED</h2>
-            <p>
-              Fill out this form and a FemFit consultant will get in touch with
-              you shortly!
-            </p>
+            <h2>{MODAL_STUFF.title}</h2>
+            <p>{MODAL_STUFF.titleP}</p>
 
             <input
               type="text"

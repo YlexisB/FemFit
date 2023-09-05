@@ -96,8 +96,7 @@ export const BLOG_STUFF = {
   title: "OUR LATEST BLOG",
   titleP:
     "Explore the FemFit Blog and dive into a world of fitness insights, health tips, and lifestyle inspiration. Our blog is your go-to source for the latest trends in wellness, workout routines, nutrition advice, and success stories from our amazing members.",
-write:"Written by: "
-
+  write: "Written by: ",
 };
 
 export const FOOTER = {
@@ -181,4 +180,38 @@ export const JOIN_STUFF = {
   t3: "YOUR BODY",
   t4: "WITH US?",
   cta: "Join Now",
+};
+
+export const CONTACT_STUFF = {
+  title: "CONTACT US",
+  subtitle: "HAVE A QUESTION?",
+  titleP:
+    " We're here to assist you. Reach out to us for any inquiries, and we'll be delighted to provide you with the information you need.",
+  name: "Name",
+  email: "Email",
+  message: "Message",
+  send: "SEND",
+};
+
+export const SCHEDULE_APP_STUFF = {
+  title: "SCHEDULE & EVENTS",
+  titleP:
+    "We are open 7 days a week! You get your own accesss code, your freedom to work out anytime!",
+  titleP1:
+    " Our managers can help you to select the best classes according to your needs and expectations.",
+  cta: "BOOK A CLASS",
+  cta2: "BOOK NOW",
+  title2: "GROUP CLASSES",
+  titleP2: "Here's our schedule for September-December 2023.",
+  calendar: "/images/schedule/calendar.png",
+  download: "DOWNLOAD",
+  title3: "WANT TO START WITH PERSONAL TRAINING?",
+  title3P:
+    "We will get touch with you to answer your questions or schedule a visit.",
+};
+
+export const MODAL_STUFF = {
+  title: "GET STARTED",
+  titleP:
+    " Fill out this form and a FemFit consultant will get in touch with you shortly!",
 };

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../Modal";
+import { SCHEDULE_APP_STUFF } from "../../constants";
 
 const ScheduleApp = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,45 +17,36 @@ const ScheduleApp = () => {
     <div id="schedule-app">
       <div className="schedule-text-ab">
         <div className="schedule-text-a">
-          <h1> SCHEDULE & EVENTS</h1>
-          <p>
-            We are open 7 days a week! You get your own accesss code, your
-            freedom to work out anytime!
-          </p>
+          <h1> {SCHEDULE_APP_STUFF.title}</h1>
+          <p>{SCHEDULE_APP_STUFF.titleP}</p>
         </div>
         <div className="schedule-text-a schedule-text-b">
-          <p>
-            Our managers can help you to select the best classes according to
-            your needs and expectations.
-          </p>
+          <p>{SCHEDULE_APP_STUFF.titleP1}</p>
           <button onClick={openModal} className="btn-a">
-            BOOK A CLASS
+            {SCHEDULE_APP_STUFF.cta}
           </button>
           {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
         </div>
       </div>
       <div className="calendar-text">
         <>
-          <h1>GROUP CLASSES</h1>
-          <p> Here's our schedule for September-December 2023.</p>
+          <h1>{SCHEDULE_APP_STUFF.title2}</h1>
+          <p>{SCHEDULE_APP_STUFF.titleP2}</p>
         </>
-        <img src="/images/schedule/calendar.png" alt="calendar" />
+        <img src={SCHEDULE_APP_STUFF.calendar} alt="calendar" />
         <div className="schedule-app-buttons">
           <button onClick={openModal} className="btn-a">
-            BOOK A CLASS
+            {SCHEDULE_APP_STUFF.cta}
           </button>
           {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
-          <button className="btn-b">DOWNLOAD</button>
+          <button className="btn-b">{SCHEDULE_APP_STUFF.download}</button>
         </div>
       </div>
       <div className="personal-training">
-        <h1>WANT TO START WITH PERSONAL TRAINING?</h1>
-        <p>
-          We will get touch with you to answer your questions or schedule a
-          visit.
-        </p>
+        <h1>{SCHEDULE_APP_STUFF.title3}</h1>
+        <p>{SCHEDULE_APP_STUFF.title3P}</p>
         <button onClick={openModal} className="training-btn">
-          BOOK NOW
+          {SCHEDULE_APP_STUFF.cta2}
         </button>
         {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
       </div>
