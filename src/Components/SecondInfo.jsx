@@ -10,7 +10,7 @@ const SecondInfo = () => {
           <Player
             preload="auto"
             poster={SEC_INFO_STUFF.promovidPreview}
-            controls
+            controls="none"
           >
             <source src={SEC_INFO_STUFF.promovid} />
           </Player>
