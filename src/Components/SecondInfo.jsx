@@ -12,7 +12,7 @@ const SecondInfo = () => {
           // poster={SEC_INFO_STUFF.promovidPreview}
           // controls
           >
-            <source src={SEC_INFO_STUFF.promovid} type="video/mp4" />
+            <source src={SEC_INFO_STUFF.promovid} />
           </Player>
         </div>
         <div className="sec-tabs">
