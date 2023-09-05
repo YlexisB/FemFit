@@ -39,7 +39,7 @@ const ScheduleApp = () => {
             {SCHEDULE_APP_STUFF.cta}
           </button>
           {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
-          <a href="/images/schedule/calendar.png" className="btn-b" download>
+          <a href={SCHEDULE_APP_STUFF.calendar} className="btn-b" download>
             {SCHEDULE_APP_STUFF.download}
           </a>
         </div>
