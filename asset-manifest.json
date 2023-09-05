@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/FemFit/static/css/main.b90d1ab7.css",
-    "main.js": "/FemFit/static/js/main.0381748d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/FemFit/static/js/787.28cb0dcd.chunk.js",
-    "static/media/herob-1.jpeg": "/FemFit/static/media/herob-1.201b061c19b294c5e9cc.jpeg",
-    "static/media/pexels-max-rahubovskiy-7031705.jpg": "/FemFit/static/media/pexels-max-rahubovskiy-7031705.a1536e7f10a8f28542da.jpg",
-    "static/media/community.jpeg": "/FemFit/static/media/community.91b4aca209a6fa662a9a.jpeg",
-    "static/media/contact1.jpeg": "/FemFit/static/media/contact1.2ef8e7687f39cbe28458.jpeg",
-    "static/media/herob-3.jpeg": "/FemFit/static/media/herob-3.0d3f7c72f9bd3d67bead.jpeg",
-    "static/media/herob-2.jpeg": "/FemFit/static/media/herob-2.491a9470b6c0c0f4202b.jpeg",
-    "index.html": "/FemFit/index.html",
-    "main.b90d1ab7.css.map": "/FemFit/static/css/main.b90d1ab7.css.map",
-    "main.0381748d.js.map": "/FemFit/static/js/main.0381748d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/FemFit/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/FemFitGym/static/css/main.b8edee3b.css",
+    "main.js": "/FemFitGym/static/js/main.0753ed00.js",
+    "static/js/787.28cb0dcd.chunk.js": "/FemFitGym/static/js/787.28cb0dcd.chunk.js",
+    "static/media/herob-1.jpeg": "/FemFitGym/static/media/herob-1.201b061c19b294c5e9cc.jpeg",
+    "static/media/pexels-max-rahubovskiy-7031705.jpg": "/FemFitGym/static/media/pexels-max-rahubovskiy-7031705.a1536e7f10a8f28542da.jpg",
+    "static/media/community.jpeg": "/FemFitGym/static/media/community.91b4aca209a6fa662a9a.jpeg",
+    "static/media/contact1.jpeg": "/FemFitGym/static/media/contact1.2ef8e7687f39cbe28458.jpeg",
+    "static/media/herob-3.jpeg": "/FemFitGym/static/media/herob-3.0d3f7c72f9bd3d67bead.jpeg",
+    "static/media/herob-2.jpeg": "/FemFitGym/static/media/herob-2.491a9470b6c0c0f4202b.jpeg",
+    "index.html": "/FemFitGym/index.html",
+    "main.b8edee3b.css.map": "/FemFitGym/static/css/main.b8edee3b.css.map",
+    "main.0753ed00.js.map": "/FemFitGym/static/js/main.0753ed00.js.map",
+    "787.28cb0dcd.chunk.js.map": "/FemFitGym/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b90d1ab7.css",
-    "static/js/main.0381748d.js"
+    "static/css/main.b8edee3b.css",
+    "static/js/main.0753ed00.js"
   ]
 }
