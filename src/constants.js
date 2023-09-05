@@ -5,6 +5,7 @@ export const NAV_STUFF = {
   about: "About Us",
   blog: "Blog",
   contact: "Contact Us",
+  logo: "images/logo/1femFit-logo.png",
 };
 
 export const HERO_HOME_STUFF = {
@@ -24,8 +25,8 @@ export const FIRST_INFO_STUFF = {
   para2:
     " dedicated trainer,craft a tailored fitness plan, and empower you to exercise wherever you choose, extending your fitness journey beyond our walls.",
   womanGraphic: "./images/firstInfo/1info-img.png",
-  tab1: "./images/firstInfo/infotab-1.png",
-  tab2: "./images/firstInfo/infotab-2.png",
+  tab1: "./images/firstInfo/Infotab-1.png",
+  tab2: "./images/firstInfo/Infotab-2.png",
   tab3: "./images/firstInfo/3info-tab.png",
 };
 
@@ -50,7 +51,7 @@ export const SCHED_TABS_STUFF = {
 };
 
 export const SEC_INFO_STUFF = {
-  promovidPreview: "/images/secondInfo/1sec-info-vid.png",
+  promovidPreview: "./images/secondInfo/1sec-info-vid.png",
   promovid: "./images/secondInfo/1sec-info-vid.mp4",
   tab1: "./images/secondInfo/sec-info-tab1.png",
   tab2: "./images/secondInfo/sec-info-tab2.png",
@@ -151,18 +152,18 @@ export const CLASSES_STUFF = {
   title3: "Our Advantages",
   a1: "Tailored Workouts",
   ap1: "Enjoy personalized fitness routines that align with your goals.",
-  a1Img: "/images/classes/class-workout.png",
+  a1Img: "./images/classes/class-workout.png",
   a2: "Supportive Community",
   ap2: "Connect with like-minded individuals and foster motivation.",
-  a2img: "/images/classes/class-com.png",
+  a2img: "./images/classes/class-com.png",
   a3: "Expert Coaching",
   ap3: "Benefit from experienced trainers guiding your fitness journey.",
   a4: "Varied Classes",
   ap4: "Access a wide array of classes designed for all fitness levels.",
-  a4img: "/images/classes/class-class.png",
+  a4img: "./images/classes/class-class.png",
   ctaTitle: "CALL AND BOOK YOUR FIRST CLASS FOR FREE !",
   ctabutton: "Join Now",
-  ctaImg: "/images/classes/fit-w.png",
+  ctaImg: "./images/classes/fit-w.png",
 };
 
 export const ABOUT_STUFF = {
@@ -203,7 +204,7 @@ export const SCHEDULE_APP_STUFF = {
   cta2: "BOOK NOW",
   title2: "GROUP CLASSES",
   titleP2: "Here's our schedule for September-December 2023.",
-  calendar: "/images/schedule/calendar.png",
+  calendar: "./images/schedule/calendar.png",
   download: "DOWNLOAD",
   title3: "WANT TO START WITH PERSONAL TRAINING?",
   title3P:

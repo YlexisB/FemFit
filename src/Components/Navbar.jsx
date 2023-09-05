@@ -29,11 +29,7 @@ const Navbar = () => {
       className={isOpen && windowWidth <= 740 ? "open" : ""}
     >
       <div className="logo-stuff">
-        <img
-          className="logo-avatar logo"
-          src="/images/logo/1femFit-logo.png"
-          alt=""
-        />
+        <img className="logo-avatar logo" src={NAV_STUFF.logo} alt="" />
         <Link to="/">
           <h1 className=" white">{NAV_STUFF.siteName}</h1>
         </Link>
