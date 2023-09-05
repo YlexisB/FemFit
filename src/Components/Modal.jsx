@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { MODAL_STUFF } from "../constants";
 
 const Modal = ({ isOpen, onClose }) => {
@@ -7,10 +7,6 @@ const Modal = ({ isOpen, onClose }) => {
     <>
       <div className="modal-overlay">
         <div className="modal">
-          {/* <button className="close-button" onClick={onClose}>
-            x
-          </button> */}
-
           <form id="get-started-form">
             <button className="modal-close-button" onClick={onClose}>
               x

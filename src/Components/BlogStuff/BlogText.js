@@ -1,5 +1,5 @@
 import React from "react";
-import { blogData } from "../../Data/BlogData";
+
 import { BLOG_STUFF } from "../../constants";
 
 const BlogText = ({ selectedBlog }) => {
