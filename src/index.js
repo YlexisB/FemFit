@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { createRoot } from "react-dom/client"; // Import createRoot
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -12,7 +12,7 @@ import ScheduleNow from "./Pages/ScheduleNow";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<AboutUs />} />
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/ScheduleNow" element={<ScheduleNow />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
