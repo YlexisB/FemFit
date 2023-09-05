@@ -1711,9 +1711,8 @@ video {
   .about-hero-text {
     height: 400px;
   }
-  .about-hero-text button {
+  .about-hero-text .about-hero-btn {
     padding: 10px 18px 10px 18px;
-    background-color: white;
   }
 }
 
@@ -3302,6 +3301,10 @@ video {
   text-align: center;
   margin: 10px 100px 10px 100px;
 }
+
+.personal-training h1 {
+  margin-bottom: 0;
+}
 .personal-training .training-btn {
   color: white;
   border: none;
@@ -3327,8 +3330,6 @@ video {
     justify-content: center;
     align-items: center;
     margin: 0;
-    /* 
-  justify-content: space-around; */
   }
   .schedule-text-a {
     text-align: center;
@@ -3354,24 +3355,12 @@ video {
     width: 100%;
   }
   .personal-training {
-    background: #54caf5;
     padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+
     margin: 10px 10px 10px 10px;
   }
-  .personal-training button {
-    -webkit-border-radius: 2;
-    -moz-border-radius: 2;
-    border-radius: 2px;
-    color: white;
-    border: none;
-    background-color: #1f1f1e;
+  .personal-training .training-btn {
     padding: 18px 24px 18px 24px;
-    text-decoration: none;
   }
 }
 
