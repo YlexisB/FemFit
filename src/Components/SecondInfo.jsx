@@ -1,19 +1,18 @@
 import React from "react";
 import { SEC_INFO_STUFF } from "../constants";
-import { Player } from "video-react";
 
 const SecondInfo = () => {
   return (
     <section>
       <div className="sec-info-all">
         <div className="sec-info-vid">
-          <Player
+          <video
             preload="auto"
             poster={SEC_INFO_STUFF.promovidPreview}
-            controls="none"
+            controls
           >
-            <source src={SEC_INFO_STUFF.promovid} />
-          </Player>
+            <source src={SEC_INFO_STUFF.promovid} type="video/mp4" />
+          </video>
         </div>
         <div className="sec-tabs">
           <div className="sec-tab-row">
