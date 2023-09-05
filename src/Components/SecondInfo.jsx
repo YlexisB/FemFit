@@ -8,9 +8,9 @@ const SecondInfo = () => {
       <div className="sec-info-all">
         <div className="sec-info-vid">
           <Player
-          // preload="auto"
-          // poster={SEC_INFO_STUFF.promovidPreview}
-          // controls
+            preload="auto"
+            poster={SEC_INFO_STUFF.promovidPreview}
+            controls
           >
             <source src={SEC_INFO_STUFF.promovid} />
           </Player>
