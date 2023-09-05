@@ -5,7 +5,7 @@ export const NAV_STUFF = {
   about: "About Us",
   blog: "Blog",
   contact: "Contact Us",
-  logo: "images/logo/1femFit-logo.png",
+  logo: "./images/logo/1femFit-logo.png",
 };
 
 export const HERO_HOME_STUFF = {
@@ -123,26 +123,32 @@ export const CLASSES_STUFF = {
   titlep:
     " FemFit Gym offers a diverse range of dynamic classes, catering to various fitness levels and goals, ensuring an engaging and effective workout experience for all",
   yoga: "YOGA",
+  yogaImg: "./images/classes/yoga.png",
   yogaP:
     "Start your day with tranquility. Our invigorating yoga class helps you find balance, flexibility, and inner peace through mindful movements and deep breathing exercises.",
   yogaTime: "6am - 7am",
   crossfit: "CROSSFIT",
+  crossfitImg: "./images/classes/crossfit.png",
   crossfitP:
     "Unleash your full potential with our high-intensity CrossFit sessions.Femfit instructor Tori, will lead you through challenging functional workouts, fostering strength, endurance, and camaraderie.",
   crossfitTime: "8am - 10am",
   strength: "STRENGTH TRAINING",
+  strengthImg: "./images/classes/strength.png",
   strengthP:
     " Elevate your strength game with focused resistance exercises. Our structured training helps you build muscle, enhance metabolism, and achieve long-lasting results.",
   strengthTime: "10am - 12pm",
   boxing: "BOXING",
+  boxingImg: "./images/classes/boxing.png",
   boxingP:
     " Step into the ring and ignite your fighting spirit. Our boxing class combines cardio, technique, and self-defense, delivering a knockout combination of fitness and empowerment.",
   boxingTime: "1pm - 3pm",
   power: "POWER AND SPEED",
+  powerImg: "./images/classes/pspeed.png",
   power1:
     "Unleash your inner dynamo in our evening power and speed sessions. Push your limits with explosive movements and intensive drills, experiencing gains in agility, power, and overall performance.",
   powerTime: "5pm - 10pm",
   open: "Open Gym",
+  openImg: "./images/classes/open-gym.png",
   openP:
     " Enjoy unrestricted access to the entire gym during open slots on weekdays and all day on weekends.",
   weekday: "Weekday Open Slots",
@@ -157,6 +163,7 @@ export const CLASSES_STUFF = {
   ap2: "Connect with like-minded individuals and foster motivation.",
   a2img: "./images/classes/class-com.png",
   a3: "Expert Coaching",
+  a3img: "./images/classes/class-coach.png",
   ap3: "Benefit from experienced trainers guiding your fitness journey.",
   a4: "Varied Classes",
   ap4: "Access a wide array of classes designed for all fitness levels.",

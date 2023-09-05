@@ -58,7 +58,7 @@ const ClassHeader = () => {
       <div className="class-img">
         <div>
           <div>
-            <img src="/images/classes/yoga.png" alt="" />
+            <img src={CLASSES_STUFF.yogaImg} alt="" />
             <div className="text-container white">
               <h1>{CLASSES_STUFF.yoga}</h1>
               <p>{CLASSES_STUFF.yogaP}</p>
@@ -66,7 +66,7 @@ const ClassHeader = () => {
             </div>
           </div>
           <div>
-            <img src="/images/classes/crossfit.png" alt="" />
+            <img src={CLASSES_STUFF.crossfitImg} alt="" />
             <div className="text-container white">
               <h1>{CLASSES_STUFF.crossfit}</h1>
               <p>{CLASSES_STUFF.crossfitP}</p>
@@ -76,7 +76,7 @@ const ClassHeader = () => {
         </div>
         <div>
           <div>
-            <img src="/images/classes/strength.png" alt="" />
+            <img src={CLASSES_STUFF.strengthImg} alt="" />
             <div className="text-container white">
               <h1>{CLASSES_STUFF.strength}</h1>
               <p>{CLASSES_STUFF.strengthP}</p>
@@ -84,7 +84,7 @@ const ClassHeader = () => {
             </div>
           </div>
           <div>
-            <img src="/images/classes/boxing.png" alt="" />
+            <img src={CLASSES_STUFF.boxingImg} alt="" />
             <div className="text-container white">
               <h1>{CLASSES_STUFF.boxing}</h1>
               <p>{CLASSES_STUFF.boxingP}</p>
@@ -94,7 +94,7 @@ const ClassHeader = () => {
         </div>
         <div>
           <div>
-            <img src="/images/classes/pspeed.png" alt="" />
+            <img src={CLASSES_STUFF.powerImg} alt="" />
             <div className="text-container white">
               <h1>{CLASSES_STUFF.power}</h1>
               <p>{CLASSES_STUFF.power1}</p>
@@ -102,7 +102,7 @@ const ClassHeader = () => {
             </div>
           </div>
           <div>
-            <img src="/images/classes/open-gym.png" alt="" />
+            <img src={CLASSES_STUFF.openImg} alt="" />
             <div className="text-container white">
               <h1>{CLASSES_STUFF.open}</h1>
               <p>{CLASSES_STUFF.openP}</p>
@@ -151,7 +151,7 @@ const ClassHeader = () => {
             <div>
               <div className="c-text-img">
                 <div>
-                  <img src="/images/classes/class-coach.png" alt="" />
+                  <img src={CLASSES_STUFF.a3img} alt="" />
                 </div>
                 <div>
                   <h2>{CLASSES_STUFF.a3}</h2>
