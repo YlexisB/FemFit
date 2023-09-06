@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FemFitGym/static/css/main.f84f5b0d.css",
+    "main.css": "/FemFitGym/static/css/main.a678e27c.css",
     "main.js": "/FemFitGym/static/js/main.13328ccd.js",
     "static/js/787.28cb0dcd.chunk.js": "/FemFitGym/static/js/787.28cb0dcd.chunk.js",
     "static/media/herob-1.jpeg": "/FemFitGym/static/media/herob-1.201b061c19b294c5e9cc.jpeg",
@@ -10,12 +10,12 @@
     "static/media/herob-3.jpeg": "/FemFitGym/static/media/herob-3.0d3f7c72f9bd3d67bead.jpeg",
     "static/media/herob-2.jpeg": "/FemFitGym/static/media/herob-2.491a9470b6c0c0f4202b.jpeg",
     "index.html": "/FemFitGym/index.html",
-    "main.f84f5b0d.css.map": "/FemFitGym/static/css/main.f84f5b0d.css.map",
+    "main.a678e27c.css.map": "/FemFitGym/static/css/main.a678e27c.css.map",
     "main.13328ccd.js.map": "/FemFitGym/static/js/main.13328ccd.js.map",
     "787.28cb0dcd.chunk.js.map": "/FemFitGym/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f84f5b0d.css",
+    "static/css/main.a678e27c.css",
     "static/js/main.13328ccd.js"
   ]
 }
