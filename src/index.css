@@ -172,7 +172,7 @@ Link:focus,
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
-  /* margin-bottom: 5px; */
+
   margin-left: 40px;
 }
 .hero-text-container {
@@ -256,16 +256,7 @@ Link:focus,
   width: 130px;
   justify-content: space-between;
 }
-/* .block {
-  width: 100px;
-  height: 100px;
-  float: left;
-  position: absolute;
-  top: 500px;
-  bottom: 10px;
-  border-radius: 100;
-  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-} */
+
 @media screen and (max-width: 1070px) {
   .hero-text-container {
     width: 70%;
@@ -453,7 +444,7 @@ Link:focus,
 .f-info-all {
   display: flex;
   justify-content: center;
-  /* justify-content: space-between; */
+
   justify-content: space-around;
 }
 .f-img-contain {
@@ -565,7 +556,7 @@ Link:focus,
   .f-info-all {
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
+
     flex-direction: column;
     align-items: center;
   }
@@ -622,7 +613,7 @@ Link:focus,
   background-color: #333330;
   display: flex;
   flex-direction: column;
-  margin-bottom: 0; /* padding-top: 10%; */
+  margin-bottom: 0;
 }
 .title-button {
   display: flex;
@@ -645,7 +636,7 @@ Link:focus,
 .wu-button-stuff {
   width: 20%;
   justify-content: center;
-  /* margin-left: 80px; */
+
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -653,7 +644,6 @@ Link:focus,
 }
 
 .wu-button-stuff button {
-  /* margin-top: 20%; */
   font-size: 15px;
   background: #ffffff;
   padding: 15px 55px 15px 55px;
@@ -666,21 +656,12 @@ Link:focus,
   border: 3px solid white;
   text-decoration: none;
 }
-/* .wu-button-stuff .button-box {
-  border: 2px solid #54caf5;
-  padding: 32px 55px 32px 55px;
-  margin-top: -60px;
-  margin-left: 10px;
-  width: 105px;
-} */
 
 .slider {
   display: flex;
   justify-content: center;
 }
 .slider div {
-  /* width: 2160px;
-  height: 200px; */
   width: 4320px;
   height: 400;
   object-fit: scale-down;
@@ -782,13 +763,7 @@ Link:focus,
   .whyus-title-text h1 {
     font-size: 1.2em;
   }
-  /* .wu-button-stuff {
-    width: 1px;
-    display: block;
-    margin: auto;
 
-  
-  } */
   .wu-button-stuff {
     width: 30%;
     margin: 0;
@@ -1004,10 +979,7 @@ video {
 .team-tab img {
   width: 90%;
 }
-/* .slick-arrow,
-.slick-prev,
-.slick-next {
-} */
+
 @media screen and (max-width: 740px) {
   .our-team-title h1 {
     font-size: 1.8em;
@@ -1747,7 +1719,7 @@ video {
 /*********ABOUT US********************************************************* AboutSec */
 #about-us-all {
   background-color: #333330;
-  /* margin: 20px; */
+
   overflow: hidden;
 }
 
@@ -1799,7 +1771,7 @@ video {
   width: 20rem;
   height: 23rem;
   object-fit: cover;
-  /* right: 8rem; */
+
   top: 1rem;
   position: absolute;
   z-index: 2;
@@ -1819,12 +1791,11 @@ video {
   height: 21rem;
   top: 0.8rem;
   left: -10px;
-  /* right: 7rem; */
+
   background: #8ddffe;
 }
 .right-t .blue-squares {
   position: absolute;
-  /* right: 38.5em; */
 }
 .arrows {
   display: flex;
@@ -1928,9 +1899,6 @@ video {
   .right-t .b2 {
     width: 11rem;
   }
-  /* .arrows {
-    left: -75%;
-  } */
 }
 /* **JOIN**********************************************************JOIN */
 #join-us {
@@ -1942,8 +1910,6 @@ video {
   display: flex;
   padding: 0 2rem;
   gap: 10rem;
-  /* justify-content: center;
-  justify-content: space-between; */
 
   padding: 40px 80px 40px 40px;
 }
@@ -2101,7 +2067,7 @@ video {
   .left-j {
     display: flex;
     flex-direction: column;
-    /* font-size: 1.2em; */
+
     width: 130%;
   }
 }
@@ -2553,8 +2519,6 @@ video {
 }
 .class-img img {
   width: 100%;
-
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
 .class-img button {
   font-size: 1.2em;
@@ -2621,7 +2585,7 @@ video {
     display: flex;
 
     justify-content: center;
-    /* width: 70%; */
+
     align-items: center;
   }
   .class-img h1 {
@@ -2890,7 +2854,7 @@ video {
   background-color: #54caf5;
   margin-bottom: 0px;
   margin-top: 0px;
-  /* padding: 30px 30px 0px 30px; */
+
   display: flex;
   justify-content: center;
 }
@@ -3074,8 +3038,6 @@ video {
 }
 
 #contact-section {
-  /* width: 100vw;
-  height: 50vh; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../public/images/contact/contact1.jpeg");
   background-size: cover;
@@ -3153,8 +3115,6 @@ video {
 
 @media screen and (max-width: 856px) {
   #contact-section {
-    /* width: 100vw;
-  height: 50vh; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../public/images/contact/contact1.jpeg");
     background-size: cover;
@@ -3201,9 +3161,6 @@ video {
   justify-content: end;
   align-items: flex-start;
   margin-left: 30px;
-
-  /* 
-  justify-content: space-around; */
 }
 .schedule-text-a {
   color: white;
@@ -3420,25 +3377,24 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999; /* Ensure the modal appears above other content */
+  z-index: 999;
 }
 
-/* Modal content */
+/* MODAl */
 .modal {
   background-color: #333330;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  width: 60%; /* Adjust the width as needed */
+  width: 60%;
   max-width: 400px;
-  z-index: 1000; /* Ensure the modal content appears above the overlay */
+  z-index: 1000;
 }
 
-/* Close button */
 .modal-close-button {
   position: absolute;
   top: 10px;
@@ -3483,7 +3439,6 @@ video {
 
 #get-started-form p {
   color: white;
-
   width: 100%;
   margin-bottom: 30px;
 }
