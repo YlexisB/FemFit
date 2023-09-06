@@ -4,6 +4,7 @@ import AboutSec from "../Components/AboutSec";
 import Join from "../Components/Join";
 import Modal from "../Components/Modal";
 import { ABOUT_STUFF } from "../constants";
+import Footer from "../Components/Footer";
 
 const AboutUs = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -38,6 +39,7 @@ const AboutUs = () => {
       </div>
       <AboutSec />
       <Join />
+      <Footer />
     </>
   );
 };
