@@ -26,6 +26,8 @@
 </ul><ul>
 <li>FemFit Blog</li>
 </ul><ul>
+<li>Formik Form</li>
+</ul><ul
 <li>BMI Fitness Calculator</li>
 </ul><ul>
 <li>Email integration</li>
