@@ -2705,7 +2705,6 @@ video {
 }
 
 @media screen and (max-width: 660px) {
-  /*  */
   .class-img button {
     font-size: 1em;
   }
@@ -2975,7 +2974,6 @@ video {
   }
   .c-free-a button {
     font-size: 1.2em;
-
     margin-bottom: 10px;
     width: 120px;
     height: 35px;
