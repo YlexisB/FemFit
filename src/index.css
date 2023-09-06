@@ -1697,7 +1697,7 @@ video {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .about-hero-text i {
     font-size: 0.95em;
     padding: 10px;
