@@ -2999,13 +2999,12 @@ video {
   .c-free-a .email-container {
     display: flex;
     gap: 1.7rem;
-
     width: 260px;
   }
 }
 @media screen and (max-width: 575px) {
   .class-free img {
-    width: 50%;
+    width: 52%;
   }
 
   .c-free-a h1 {
