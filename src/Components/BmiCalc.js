@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BMI_STUFF } from "../constants";
+import { Formik } from "formik";
 
 const BmiCalc = () => {
   const [heightInches, setHeightInches] = useState("");
@@ -50,7 +51,7 @@ const BmiCalc = () => {
         <div className="bmi-title-metrics">
           <h1> {BMI_STUFF.title}</h1>
           {bmiResult === null ? (
-            <>
+            <Formik>
               <div className="inputs">
                 <label for="height">{BMI_STUFF.height}</label>
                 <br />
@@ -76,7 +77,7 @@ const BmiCalc = () => {
                   onChange={handleWeightChange}
                 ></input>
               </div>
-            </>
+            </Formik>
           ) : (
             <div className="calc-results">
               <p>
