@@ -52,7 +52,7 @@ const BmiCalc = () => {
           <h1> {BMI_STUFF.title}</h1>
           {bmiResult === null ? (
             <Formik>
-              <>
+              <form>
                 <div className="inputs">
                   <label for="height">{BMI_STUFF.height}</label>
                   <br />
@@ -78,7 +78,7 @@ const BmiCalc = () => {
                     onChange={handleWeightChange}
                   ></input>
                 </div>
-              </>
+              </form>
             </Formik>
           ) : (
             <div className="calc-results">
