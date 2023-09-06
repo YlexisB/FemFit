@@ -52,31 +52,33 @@ const BmiCalc = () => {
           <h1> {BMI_STUFF.title}</h1>
           {bmiResult === null ? (
             <Formik>
-              <div className="inputs">
-                <label for="height">{BMI_STUFF.height}</label>
-                <br />
+              <>
+                <div className="inputs">
+                  <label for="height">{BMI_STUFF.height}</label>
+                  <br />
 
-                <input
-                  placeholder="IN:-"
-                  type="number"
-                  id="inches"
-                  name="inches"
-                  value={heightInches}
-                  onChange={handleHeightChange}
-                ></input>
-              </div>
-              <div>
-                <label for="weight">{BMI_STUFF.weight}</label>
-                <br />
-                <input
-                  label="weight"
-                  placeholder="LBS:-"
-                  id="weight"
-                  name="weight"
-                  value={weightPounds}
-                  onChange={handleWeightChange}
-                ></input>
-              </div>
+                  <input
+                    placeholder="IN:-"
+                    type="number"
+                    id="inches"
+                    name="inches"
+                    value={heightInches}
+                    onChange={handleHeightChange}
+                  ></input>
+                </div>
+                <div>
+                  <label for="weight">{BMI_STUFF.weight}</label>
+                  <br />
+                  <input
+                    label="weight"
+                    placeholder="LBS:-"
+                    id="weight"
+                    name="weight"
+                    value={weightPounds}
+                    onChange={handleWeightChange}
+                  ></input>
+                </div>
+              </>
             </Formik>
           ) : (
             <div className="calc-results">
