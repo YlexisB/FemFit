@@ -4,7 +4,7 @@ import { BLOG_STUFF } from "../../constants";
 
 const BlogCardSec = () => {
   const handleCardClick = (cardId) => {
-    window.location.href = `/#/blog/${cardId}`; // Use the correct route
+    window.location.href = `/FemFitGym/#/blog/${cardId}`; // Use the correct route
   };
 
   return (
