@@ -3344,7 +3344,7 @@ video {
   }
 
   .calendar-text img {
-    width: 120%;
+    width: 100%;
   }
   .personal-training {
     padding: 15px;
@@ -3367,6 +3367,9 @@ video {
   }
   .btn-b {
     padding: 12px 18px 12px 18px;
+  }
+  .schedule-app-buttons .btn-b {
+    margin: 8px;
   }
 }
 
