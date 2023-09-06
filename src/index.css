@@ -1001,8 +1001,7 @@ video {
 }
 
 /***BMICALC********************************************************** BMI CALC */
-#bmi-section {
-}
+
 .bmi-all {
   display: flex;
 
@@ -2089,7 +2088,6 @@ video {
   .email-container {
     display: flex;
     gap: 0.2rem;
-
     padding: 0.5rem 0.2rem;
   }
 
