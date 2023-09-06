@@ -1,5 +1,5 @@
 import React from "react";
-import { FOOTER } from "../constants";
+import { FOOTER, NAV_STUFF } from "../constants";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-all">
         <div className="footer-img">
           <div className="img img-1">
-            <img src="./images/logo/1femfit-logo.png" alt="logo" />
+            <img src={NAV_STUFF.logo} alt="logo" />
             <h1 className="white">{FOOTER.siteName}</h1>
           </div>
           <div className="img img-2">

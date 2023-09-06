@@ -5,7 +5,7 @@ export const NAV_STUFF = {
   about: "About Us",
   blog: "Blog",
   contact: "Contact Us",
-  logo: "./images/logo/1femFit-logo.png",
+  logo: "./images/logo/1femfit-logo.png",
 };
 
 export const HERO_HOME_STUFF = {
