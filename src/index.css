@@ -1943,7 +1943,9 @@ video {
 .email-container {
   display: flex;
   gap: 3rem;
-  background-color: gray;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 4px;
   padding: 1rem 2rem;
 }
 .email-container input {
@@ -1959,7 +1961,7 @@ video {
 .email-container .btn-j {
   background-color: #54caf5;
   color: white;
-  border: none;
+  border: 1px solid gray;
   outline: none;
   width: 100px;
   height: 30px;
