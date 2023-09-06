@@ -2898,7 +2898,8 @@ video {
 .c-free-a .email-container {
   display: flex;
   gap: 3rem;
-  background-color: gray;
+  background-color: #333330;
+  border: none;
   padding: 0.1rem 0.8rem;
 }
 @media screen and (max-width: 1216px) {
@@ -2912,7 +2913,6 @@ video {
 
 @media screen and (max-width: 1077px) {
   .class-free {
-    background-color: #54caf5;
     margin-bottom: 0px;
     margin-top: 0px;
     padding: 0px 30px 0px 30px;
@@ -2939,9 +2939,7 @@ video {
   }
   .c-free-a button {
     font-size: 1.2em;
-    background-color: white;
-    color: #54caf5;
-    border: 1px solid #54caf5;
+
     margin-bottom: 10px;
     width: 125px;
     height: 40px;
@@ -2951,7 +2949,6 @@ video {
 
 @media screen and (max-width: 856px) {
   .class-free {
-    background-color: #54caf5;
     margin-bottom: 0px;
     margin-top: 0px;
     padding: 0px 30px 0px 30px;
@@ -2978,8 +2975,6 @@ video {
   }
   .c-free-a button {
     font-size: 1.2em;
-    background-color: white;
-    color: #54caf5;
 
     margin-bottom: 10px;
     width: 120px;
@@ -3003,8 +2998,8 @@ video {
   }
   .c-free-a .email-container {
     display: flex;
-    gap: 2rem;
-    background-color: gray;
+    gap: 1.7rem;
+
     width: 260px;
   }
 }
@@ -3024,7 +3019,7 @@ video {
   .c-free-a .email-container {
     display: flex;
     gap: 1.5rem;
-    background-color: #333330;
+
     width: 230px;
   }
 }
