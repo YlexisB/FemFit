@@ -127,7 +127,13 @@ Link:focus,
       margin: 0px 10px;
     }
   }
-
+  @media screen and (max-width: 400) {
+    .logo-avatar {
+      max-width: 30%;
+      max-height: 30px;
+      margin-right: 15px;
+    }
+  }
   .menu-items.open {
     display: flex;
   }
@@ -1722,7 +1728,8 @@ video {
 }
 @media screen and (max-width: 400px) {
   .about-hero-text i {
-    font-size: 1em;
+    font-size: 0.95em;
+    padding: 10px;
   }
   .about-hero-text {
     display: flex;
@@ -1730,7 +1737,7 @@ video {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 90%;
+    width: 85%;
     text-align: center;
   }
   .about-hero-text .about-hero-btn {
@@ -1783,8 +1790,6 @@ video {
 .right-t {
   width: 50%;
   position: relative;
-  /* display: flex;
-  justify-content: center; */
   padding-left: 20%;
   width: 40%;
   margin-top: 50px;
@@ -1902,7 +1907,7 @@ video {
   }
   .left-t {
     display: flex;
-    width: 90%;
+    width: 85%;
     gap: 1rem;
     flex-direction: column;
     text-transform: uppercase;
@@ -1912,7 +1917,7 @@ video {
   .right-t {
     width: 100%;
 
-    padding-left: 30%;
+    padding-left: 40%;
   }
   .right-t img {
     width: 12rem;
@@ -2421,8 +2426,8 @@ video {
     margin-top: 50px;
   }
   #article {
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   #article .image-text img {
@@ -3388,6 +3393,7 @@ video {
     padding: 15px;
 
     margin: 5px;
+    margin-bottom: 25px;
   }
   .calendar-text {
     margin-top: 50px;
@@ -3399,7 +3405,14 @@ video {
     margin-top: 0;
     margin-bottom: 30px;
   }
+  .btn-a {
+    padding: 12px 18px 12px 18px;
+  }
+  .btn-b {
+    padding: 12px 18px 12px 18px;
+  }
 }
+
 /* GET STARTED*********************************************** */
 .modal-overlay {
   position: fixed;
