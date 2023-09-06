@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FemFitGym/static/css/main.ecf6995a.css",
-    "main.js": "/FemFitGym/static/js/main.13328ccd.js",
+    "main.css": "/FemFitGym/static/css/main.87e42549.css",
+    "main.js": "/FemFitGym/static/js/main.faa6e050.js",
     "static/js/787.28cb0dcd.chunk.js": "/FemFitGym/static/js/787.28cb0dcd.chunk.js",
     "static/media/herob-1.jpeg": "/FemFitGym/static/media/herob-1.201b061c19b294c5e9cc.jpeg",
     "static/media/pexels-max-rahubovskiy-7031705.jpg": "/FemFitGym/static/media/pexels-max-rahubovskiy-7031705.a1536e7f10a8f28542da.jpg",
@@ -10,12 +10,12 @@
     "static/media/herob-3.jpeg": "/FemFitGym/static/media/herob-3.0d3f7c72f9bd3d67bead.jpeg",
     "static/media/herob-2.jpeg": "/FemFitGym/static/media/herob-2.491a9470b6c0c0f4202b.jpeg",
     "index.html": "/FemFitGym/index.html",
-    "main.ecf6995a.css.map": "/FemFitGym/static/css/main.ecf6995a.css.map",
-    "main.13328ccd.js.map": "/FemFitGym/static/js/main.13328ccd.js.map",
+    "main.87e42549.css.map": "/FemFitGym/static/css/main.87e42549.css.map",
+    "main.faa6e050.js.map": "/FemFitGym/static/js/main.faa6e050.js.map",
     "787.28cb0dcd.chunk.js.map": "/FemFitGym/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecf6995a.css",
-    "static/js/main.13328ccd.js"
+    "static/css/main.87e42549.css",
+    "static/js/main.faa6e050.js"
   ]
 }
