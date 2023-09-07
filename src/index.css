@@ -2071,6 +2071,15 @@ video {
 
     width: 130%;
   }
+  .email-container {
+    display: flex;
+    gap: 0.2rem;
+    padding: 0.5rem 0.2rem;
+  }
+
+  .email-container .btn-j {
+    width: 70px;
+  }
 }
 @media screen and (max-width: 400px) {
   .join {
@@ -2084,15 +2093,6 @@ video {
     flex-direction: column;
     font-size: 1.2em;
     width: 130%;
-  }
-  .email-container {
-    display: flex;
-    gap: 0.2rem;
-    padding: 0.5rem 0.2rem;
-  }
-
-  .email-container .btn-j {
-    width: 70px;
   }
 }
 
